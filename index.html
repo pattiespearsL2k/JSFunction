@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <form class="form">
+            <h5>QUẢN LÝ TUYỂN SINH</h5>
+            <p type="Nhập điểm chuẩn: "><input type="number" id="inpA"></input></p>
+            <select name="" id="SelectArea">
+                <option value="">Chọn khu vực</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+            <select name="" id="SelectOb">
+                <option value="">Chọn đối tượng</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <p type="Nhập điểm môn 1: "><input id="inpM1"></input></p>
+            <p type="Nhập điểm môn 2: "><input id="inpM2"></input></p>
+            <p type="Nhập điểm môn 3: "><input id="inpM3"></input></p>
+            <div class="btn">
+                <button id="btnMark" type="button">Kết Quả</button>
+            </div>
+            <p id="txtMark"></p>
+
+        </form>
+
+        <form class="form">
+            <p type="Nhập họ tên: "><input type="text" id="inpName"></input></p>
+            <p type="Nhập số kw: "><input type="number" id="inpElec"></input></p>
+            <div class="btn">
+                <button id="btnElec" type="button">Tính tiền điện</button>
+            </div>
+            <p id="txtElec"></p>
+        </form>
+    </div>
+    <script src="./js/bt1.js"></script>
+    <script src="./js/bt2.js"></script>
+</body>
+
+</html>
