@@ -9,7 +9,7 @@ function CalMark() {
     var result = "";
     var markTotal = markA + markB + markC + Area + Ob;
     if (markA == 0 || markB == 0 || markC == 0) {
-        result = "Bạn đã rớt vì 1 trong 3 môn < 0!"
+        result = "Bạn đã rớt vì 1 trong 3 môn = 0!"
     }
     else {
         if (markTotal >= markAverage) {
